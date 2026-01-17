@@ -45,13 +45,34 @@
                 tus manos.
             </p>
         </div>
-        <!-- Links del footer omitidos por brevedad pero incluidos en la lógica -->
+        <div>
+            <h4 class="font-black uppercase tracking-widest text-sm mb-6">Tienda</h4>
+            <ul class="space-y-4 text-zinc-600 font-bold uppercase text-xs tracking-tight">
+                <li><a class="hover:text-primary" href="#">Todos los productos</a></li>
+                <li><a class="hover:text-primary" href="#">Más vendidos</a></li>
+                <li><a class="hover:text-primary" href="#">Próximos lanzamientos</a></li>
+                <li><a class="hover:text-primary" href="#">Tarjetas de regalo</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="font-black uppercase tracking-widest text-sm mb-6">Soporte</h4>
+            <ul class="space-y-4 text-zinc-600 font-bold uppercase text-xs tracking-tight">
+                <li><a class="hover:text-primary" href="#">Seguimiento de pedido</a></li>
+                <li><a class="hover:text-primary" href="#">Envíos y Devoluciones</a></li>
+                <li><a class="hover:text-primary" href="#">Preguntas Frecuentes</a></li>
+                <li><a class="hover:text-primary" href="#">Contacto</a></li>
+            </ul>
+        </div>
     </div>
     <div
         class="max-w-7xl mx-auto mt-16 pt-8 border-t border-zinc-100 flex flex-col sm:flex-row justify-between items-center gap-4">
         <p class="text-[10px] font-black uppercase text-zinc-400 tracking-widest">©
             <?php echo date('Y'); ?> Berlin Artesanías. Todos los derechos reservados.
         </p>
+        <div class="flex gap-4 text-[10px] font-black uppercase text-zinc-400 tracking-widest">
+            <a class="hover:text-black" href="#">Privacidad</a>
+            <a class="hover:text-black" href="#">Términos y Condiciones</a>
+        </div>
     </div>
 </footer>
 
