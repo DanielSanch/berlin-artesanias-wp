@@ -78,7 +78,7 @@
                 <div class="flex items-center gap-3 group cursor-pointer"
                     onclick="window.location='https://experiencia.berlinartesanias.com/'">
                     <div
-                        class="bg-primary p-1.5 rounded-lg text-black transform group-hover:rotate-12 transition-transform shadow-lg flex items-center justify-center min-w-[32px] sm:min-w-[40px] aspect-square">
+                        class="bg-black p-1.5 rounded-lg text-primary transform group-hover:rotate-12 transition-transform shadow-lg flex items-center justify-center min-w-[32px] sm:min-w-[40px] aspect-square border border-primary/20">
                         <span class="text-2xl sm:text-3xl font-black leading-none">B</span>
                     </div>
                     <div class="flex flex-row items-baseline gap-1 text-white uppercase tracking-tighter">
