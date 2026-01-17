@@ -64,7 +64,7 @@ get_header();
                 <div class="bg-white p-6 rounded-xl border border-zinc-100 shadow-sm hover:shadow-md transition-shadow">
                     <span class="material-symbols-outlined text-4xl text-primary mb-4">book_2</span>
                     <h3 class="text-xl font-black uppercase mb-2">Agendas Premium</h3>
-                    <p class="text-sm text-zinc-500">Modelo B0002 con fotografía encapsulada en madera y resina.</p>
+                    <p class="text-sm text-zinc-500">Modelos con fotografías, logos, textos, mensajes y dedicatorias.</p>
                 </div>
                 <!-- Feature 2 -->
                 <div class="bg-white p-6 rounded-xl border border-zinc-100 shadow-sm hover:shadow-md transition-shadow">
@@ -75,8 +75,8 @@ get_header();
                 <!-- Feature 3 -->
                 <div class="bg-white p-6 rounded-xl border border-zinc-100 shadow-sm hover:shadow-md transition-shadow">
                     <span class="material-symbols-outlined text-4xl text-primary mb-4">wallet</span>
-                    <h3 class="text-xl font-black uppercase mb-2">Accesorios de Cuero</h3>
-                    <p class="text-sm text-zinc-500">Billeteras, porta tarjetas y llaveros con grabado láser.</p>
+                    <h3 class="text-xl font-black uppercase mb-2">Accesorios</h3>
+                    <p class="text-sm text-zinc-500">Billeteras, llaveros y esferos.</p>
                 </div>
                 <!-- Feature 4 -->
                 <div class="bg-white p-6 rounded-xl border border-zinc-100 shadow-sm hover:shadow-md transition-shadow">
