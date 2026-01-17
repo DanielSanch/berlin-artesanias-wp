@@ -29,7 +29,9 @@
         <div>
             <h4 class="font-black uppercase tracking-widest text-sm mb-6">Tienda</h4>
             <ul class="space-y-4 text-zinc-600 font-bold uppercase text-xs tracking-tight">
-                <li><a class="hover:text-primary" href="/tienda">Todos los productos</a></li>
+                <li><a class="hover:text-primary"
+                        href="<?php echo esc_url(get_permalink(wc_get_page_id('shop'))); ?>">Todos los
+                        productos</a></li>
                 <li><a class="hover:text-primary" href="/categoria/agendas">Agendas</a></li>
                 <li><a class="hover:text-primary" href="/categoria/medallones">Medallones</a></li>
                 <li><a class="hover:text-primary" href="/gift-cards">Gift Cards</a></li>
