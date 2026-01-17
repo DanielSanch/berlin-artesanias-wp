@@ -85,7 +85,7 @@
                     </div>
                 </a>
                 <a class="group relative overflow-hidden rounded-xl bg-zinc-900 h-64 border border-zinc-800"
-                    href="/product-category/laser-studio">
+                    href="/laser-studio/">
                     <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-110 transition-transform duration-700"
                         style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB0LPwio0O_Zh0xGhU3teuLKEJwgtq4CWbtlU0PpzLBTaT38LcGnOptc2qTwhrPchkihmguDfVs0xDAaHSihN3tH_cn_jCmDLXj3N447R0cD24j2ZZK6QgmB_1ZNmqAjX-KO8Jd5HLYB3_E_hlsTU4W8Z5-hTaodCboG2FoNF4wUdGlRCQk_bb28uQ_e1S3q-Z6TOAcm91eHRbrXNQa9Muc9PLsx14A4_vx7dRBG4GFaC1RIM_mOUhJ8Ao53_ySL4wkJk3PGgL74iak");'>
                     </div>

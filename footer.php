@@ -41,7 +41,7 @@
                 <li><a class="hover:text-primary" href="/product-category/premiaciones-y-corporativo">Corporativo</a>
                 </li>
                 <li><a class="hover:text-primary" href="/product-category/temporadas">Temporadas</a></li>
-                <li><a class="hover:text-primary" href="/product-category/laser-studio">Laser Studio</a></li>
+                <li><a class="hover:text-primary" href="/laser-studio/">Laser Studio</a></li>
             </ul>
         </div>
 
