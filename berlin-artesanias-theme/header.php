@@ -74,18 +74,28 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16 sm:h-20">
                 <!-- Logo -->
-                <div class="flex items-center gap-2 group cursor-pointer"
+                <div class="flex items-center gap-3 group cursor-pointer"
                     onclick="window.location='https://experiencia.berlinartesanias.com/'">
                     <div
-                        class="bg-primary p-1.5 rounded-lg text-black transform group-hover:rotate-12 transition-transform">
-                        <svg class="size-6 sm:size-7" fill="none" viewbox="0 0 48 48"
+                        class="bg-primary p-1.5 rounded-lg text-black transform group-hover:rotate-12 transition-transform shadow-lg">
+                        <svg class="size-6 sm:size-7" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
-                            <path clip-rule="evenodd"
-                                d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z"
-                                fill="currentColor" fill-rule="evenodd"></path>
+                            <path d="M12 4L19 11H5L12 4Z" fill="currentColor" />
+                            <path d="M5 13H19L12 20L5 13Z" fill="currentColor" />
                         </svg>
                     </div>
-                    <span class="text-lg sm:text-xl font-extrabold tracking-tighter uppercase">Berlin Artesanías</span>
+                    <div class="flex flex-row items-baseline gap-1 text-white uppercase tracking-tighter">
+                        <span class="text-xl sm:text-2xl font-black">Berlin</span>
+                        <span class="text-lg sm:text-xl font-light opacity-90">
+                            <?php
+                            if (is_front_page()) {
+                                echo 'Artesanías';
+                            } else {
+                                echo get_the_title();
+                            }
+                            ?>
+                        </span>
+                    </div>
                 </div>
                 <!-- Desktop Search -->
                 <div class="hidden md:flex flex-1 max-w-md mx-8">
