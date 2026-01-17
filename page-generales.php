@@ -11,50 +11,44 @@ get_header();
         <div class="w-full lg:w-1/2 bg-black flex items-center justify-center p-8 lg:p-16 relative overflow-hidden">
             <div class="relative z-10 space-y-4">
                 <span class="text-primary font-black uppercase tracking-[0.2em] text-sm">Orgullo Regional</span>
-                <h1
+                <h2
                     class="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.9] tracking-tighter uppercase">
-                    HECHO EN EL <br />
-                    <span class="text-primary italic">CORAZÓN</span> <br />
-                    DEL CASANARE
-                </h1>
+                    EL EQUIPO <br />
+                    <span class="text-primary italic">BERLIN</span> <br />
+                    ARTESANÍAS
+                </h2>
                 <div class="w-24 h-2 bg-primary mt-8"></div>
             </div>
             <div
                 class="absolute -bottom-10 -left-10 text-[15rem] font-black text-white/5 select-none pointer-events-none uppercase tracking-tighter">
-                Yopal
+                CREW
             </div>
         </div>
         <div class="w-full lg:w-1/2 bg-zinc-100 flex flex-col p-8 lg:p-16 gap-8">
-            <div class="grid grid-cols-2 gap-4 h-full">
-                <!-- Team Member 1 -->
-                <div class="group relative overflow-hidden rounded-2xl bg-zinc-300 aspect-[3/4]">
-                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAAPGhPepzzu_Y6ggd5R7EHs8uhrYCY7qc5h6u-oVS7wgVijfLzBgDi8t_UisdzfgCrwDs4W5j4TrCuE13KXVuqtA0uAB3XzbydScH-iSFYJ5v2zhvL4fL_Rg89UR5TmglPHyOPdF7Sk51nEVVfGsCk74m0la-wOrGqCfJLiU5GdYDr_lR51axEQeqCrHJBTV0xfK6F174aapuUyemhV3NHkZSlheJ1xMcDWCKJ4dhcLZ1yBTpfgEGdf08BaPmR5WLso_ZpvfLlzo4A");'>
-                    </div>
-                    <div
-                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-6">
-                        <span class="text-white font-black uppercase tracking-widest text-lg">Juan</span>
-                        <span class="text-primary text-xs font-bold uppercase">Maestro Cuero</span>
-                    </div>
+            <div
+                class="relative flex-1 group overflow-hidden rounded-2xl bg-zinc-300 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                    style='background-image: url("<?php echo get_template_directory_uri(); ?>/assets/images/equipo-berlin.jpg");'>
                 </div>
-                <!-- Team Member 2 -->
-                <div class="group relative overflow-hidden rounded-2xl bg-zinc-300 aspect-[3/4] mt-12">
-                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuApPoamIoIDHveCUmZ7hUS-AEssLYAcG12Wnu3la498GO_XtILEXTwlVM73nEgQBfNaawJzCfiZkJP4Y6yN1ALiTwGfhwQ99_Kn1654YrHXeo9-OFDYo4A1OT7GSGbm8xSiLRgL7a4kB3gmfQO5xclXcEkvMdIHC49vBSqeXS62kf_z77ciVHBcAFHr5AOUycSE5e5ofos0wU_Zkt7YUqCkQRXGk7nb-6K8v-apiO3bx3iIlqvVDa9tSv4hIV_07tMADMXpXAg-r7qi");'>
-                    </div>
-                    <div
-                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-6">
-                        <span class="text-white font-black uppercase tracking-widest text-lg">Natalia</span>
-                        <span class="text-primary text-xs font-bold uppercase">Diseño & Grabado</span>
-                    </div>
-                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
             </div>
-            <div class="bg-white p-6 rounded-2xl border border-zinc-200 shadow-sm">
-                <p class="text-zinc-600 font-medium leading-relaxed italic">
-                    "En nuestro taller de Yopal, cada pieza es una historia. Fusionamos la herencia llanera con una
-                    visión urbana
-                    y moderna para crear accesorios que trascienden el tiempo."
+            <div class="bg-white p-6 rounded-2xl border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                <p class="text-zinc-600 font-bold leading-relaxed italic mb-4">
+                    "Daniela, Natalia, Juan, Gustavo y Daniel. Somos el corazón de Berlin, trabajando desde Yopal para
+                    llevar un pedacito de nuestra cultura a todo el mundo."
                 </p>
+                <div class="flex flex-wrap gap-2">
+                    <span
+                        class="px-3 py-1 bg-zinc-100 rounded-full text-[10px] font-black uppercase tracking-widest text-zinc-500 border border-zinc-200">Daniela</span>
+                    <span
+                        class="px-3 py-1 bg-zinc-100 rounded-full text-[10px] font-black uppercase tracking-widest text-zinc-500 border border-zinc-200">Natalia</span>
+                    <span
+                        class="px-3 py-1 bg-zinc-100 rounded-full text-[10px] font-black uppercase tracking-widest text-zinc-500 border border-zinc-200">Juan</span>
+                    <span
+                        class="px-3 py-1 bg-zinc-100 rounded-full text-[10px] font-black uppercase tracking-widest text-zinc-500 border border-zinc-200">Gustavo</span>
+                    <span
+                        class="px-3 py-1 bg-zinc-100 rounded-full text-[10px] font-black uppercase tracking-widest text-zinc-500 border border-zinc-200">Daniel</span>
+                </div>
             </div>
         </div>
     </section>
