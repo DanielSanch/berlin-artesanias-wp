@@ -77,12 +77,8 @@
                 <div class="flex items-center gap-3 group cursor-pointer"
                     onclick="window.location='https://experiencia.berlinartesanias.com/'">
                     <div
-                        class="bg-primary p-1.5 rounded-lg text-black transform group-hover:rotate-12 transition-transform shadow-lg">
-                        <svg class="size-6 sm:size-7" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 4L19 11H5L12 4Z" fill="currentColor" />
-                            <path d="M5 13H19L12 20L5 13Z" fill="currentColor" />
-                        </svg>
+                        class="bg-primary p-1.5 rounded-lg text-black transform group-hover:rotate-12 transition-transform shadow-lg flex items-center justify-center min-w-[32px] sm:min-w-[40px] aspect-square">
+                        <span class="text-2xl sm:text-3xl font-black leading-none">B</span>
                     </div>
                     <div class="flex flex-row items-baseline gap-1 text-white uppercase tracking-tighter">
                         <span class="text-xl sm:text-2xl font-black">Berlin</span>
