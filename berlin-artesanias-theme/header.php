@@ -75,7 +75,7 @@
             <div class="flex items-center justify-between h-16 sm:h-20">
                 <!-- Logo -->
                 <div class="flex items-center gap-2 group cursor-pointer"
-                    onclick="window.location='<?php echo home_url(); ?>'">
+                    onclick="window.location='https://experiencia.berlinartesanias.com/'">
                     <div
                         class="bg-primary p-1.5 rounded-lg text-black transform group-hover:rotate-12 transition-transform">
                         <svg class="size-6 sm:size-7" fill="none" viewbox="0 0 48 48"

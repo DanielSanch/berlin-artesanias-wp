@@ -19,7 +19,7 @@
                     horas.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                    <button
+                    <button onclick="window.location='https://experiencia.berlinartesanias.com/personalizador/'"
                         class="px-8 py-4 bg-black text-white text-lg font-extrabold uppercase tracking-tighter hover:bg-zinc-800 transition-all rounded-lg shadow-[8px_8px_0px_0px_rgba(242,196,13,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
                         Comenzar ahora
                     </button>
@@ -41,7 +41,7 @@
                             style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAAPGhPepzzu_Y6ggd5R7EHs8uhrYCY7qc5h6u-oVS7wgVijfLzBgDi8t_UisdzfgCrwDs4W5j4TrCuE13KXVuqtA0uAB3XzbydScH-iSFYJ5v2zhvL4fL_Rg89UR5TmglPHyOPdF7Sk51nEVVfGsCk74m0la-wOrGqCfJLiU5GdYDr_lR51axEQeqCrHJBTV0xfK6F174aapuUyemhV3NHkZSlheJ1xMcDWCKJ4dhcLZ1yBTpfgEGdf08BaPmR5WLso_ZpvfLlzo4A");'>
                         </div>
                         <div class="absolute bottom-4 left-0 w-1/2 h-1/2 bg-center bg-cover rounded-xl shadow-2xl border-4 border-white -rotate-12"
-                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvQPipTLAa3HwvCuCnzo3UsMkrYJ9m2XqJfIrr4PTmx_gvWAbeBeJEl7rY-2PqjUqN5ytedxM98Wpeaf11Kw2lH_8pKFIxkGGsQdradxgx5F_ZNauACYH2bMy1y6GgKFJbDTVNYMwNLTtVIiq0YoOAsac1M3iZQFQ4i5OLqyLhsh6ZAR_X8158KWVxAW_50N6Ipcs9JiV_Xt1wALRnz5XlAAudEXB-YGLrX7qRXS2DFVRrxggNG-znxn-gRDfWjzQsEWGRa8ZVHrVd");'>
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvQPipTLAa3HwvCuCnzo3UsMkrYJ9m2XqJfIrr4PTmx_gvWAbeBeJEl7rY-2PqjUqN5ytedxM98Wpeaf11Kw2lH_8pKFIxkGGsQdradxgx5F_ZNauACYH2bMy1y6GgKFJbDTVNYMwNLTsTVIiq0YoOAsac1M3iZQFQ4i5OLqyLhsh6ZAR_X8158KWVxAW_50N6Ipcs9JiV_Xt1wALRnz5XlAAudEXB-YGLrX7qRXS2DFVRrxggNG-znxn-gRDfWjzQsEWGRa8ZVHrVd");'>
                         </div>
                         <div
                             class="absolute top-1/4 left-1/4 w-1/3 h-1/3 bg-primary flex items-center justify-center rounded-full shadow-lg border-4 border-black animate-pulse">
@@ -114,7 +114,7 @@
             <div class="group flex flex-col gap-4">
                 <div class="relative w-full aspect-[4/5] bg-zinc-100 rounded-xl overflow-hidden">
                     <div class="absolute inset-0 bg-center bg-cover group-hover:scale-105 transition-transform duration-500"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDapGVwPy6AezSpZfCIMXVV81B2jF1FkVRZK_4NDyzXQk3DaM7dEs9OYRFi72Q5y073cJrERQIL2L30XGbvMh_isVSxZzwHGx0grVBKd1hd3KxrsOTQWMljfboFZxdIHaz8zcMajwtyXzf6LFeNDcCwltPRKAIS00jzIEaByLRtU1C-uJghAi3RCBnL5CYqEHL7okW_5MtM_A3qzhXsW7Q0ehVpsYu6nyfMp6wKoDjQvpiu28yDR8jwc_b3ZBkbKJS2Ce438y_Pzbyg");'>
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDapGVwPy6AezSpZfCIMXVV81B2jF1FkVRZK_4NDyzXQk3DaM7dEs9OYRFi72Q5y073cJrERQIL2L30XGbvMh_isVSxZzwHGx0grVBKd1hd3KxrsOTQWMljfboFZxdIHaz8zcMajwtyXzf6LFeNDcCwltPRKAIS00jzIEBByLRtU1C-uJghAi3RCBnL5CYqEHL7okW_5MtM_A3qzhXsW7Q0ehVpsYu6nyfMp6wKoDjQvpiu28yDR8jwc_b3ZBkbKJS2Ce438y_Pzbyg");'>
                     </div>
                     <span
                         class="absolute top-4 left-4 bg-black text-white px-2 py-1 text-[10px] font-black uppercase tracking-widest">Bestseller</span>
@@ -125,7 +125,7 @@
                         Custom Gold Medallion</h3>
                     <p class="text-zinc-500 text-sm font-medium">Desde $25.00</p>
                 </div>
-                <button
+                <button onclick="window.location='https://experiencia.berlinartesanias.com/personalizador/'"
                     class="w-full bg-primary text-black py-3 rounded-lg font-black uppercase tracking-tighter shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all">
                     Personalizar
                 </button>
