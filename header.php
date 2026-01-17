@@ -104,7 +104,8 @@
                         class="hover:text-primary transition-colors">Catálogo</a>
                     <a href="/laser-studio/" class="hover:text-primary transition-colors">Laser
                         Studio</a>
-                    <a href="/personalizador" class="hover:text-primary transition-colors text-primary">Personalizar</a>
+                    <a href="/product-category/regalos-personalizados"
+                        class="hover:text-primary transition-colors text-primary">Personalizar</a>
                 </div>
 
                 <!-- Right Icons -->

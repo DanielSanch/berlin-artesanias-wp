@@ -2,7 +2,7 @@
 /**
  * The Template for displaying product archives, including the main shop page which is a post type archive
  */
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 get_header();
 ?>
 
@@ -47,41 +47,88 @@ get_header();
         </div>
     </div>
 
+    <!-- Custom Banner for 'Regalos Personalizados' -->
+    <?php if (is_product_category('regalos-personalizados') || is_product_category('personalizados')): ?>
+        <section class="bg-zinc-50 border-b border-zinc-200 py-16 px-4">
+            <div class="max-w-7xl mx-auto text-center mb-12">
+                <span
+                    class="inline-block bg-primary text-black px-3 py-1 font-black uppercase tracking-widest text-xs mb-4">Taller
+                    de Diseño</span>
+                <h2 class="text-4xl md:text-5xl font-black uppercase tracking-tighter mb-4">Personaliza tus Regalos</h2>
+                <p class="text-lg text-zinc-600 max-w-2xl mx-auto">Selecciona tu base favorita y añade nombres, fotos o
+                    mensajes únicos.</p>
+            </div>
+
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature 1 -->
+                <div class="bg-white p-6 rounded-xl border border-zinc-100 shadow-sm hover:shadow-md transition-shadow">
+                    <span class="material-symbols-outlined text-4xl text-primary mb-4">book_2</span>
+                    <h3 class="text-xl font-black uppercase mb-2">Agendas Premium</h3>
+                    <p class="text-sm text-zinc-500">Modelo B0002 con fotografía encapsulada en madera y resina.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-6 rounded-xl border border-zinc-100 shadow-sm hover:shadow-md transition-shadow">
+                    <span class="material-symbols-outlined text-4xl text-primary mb-4">palette</span>
+                    <h3 class="text-xl font-black uppercase mb-2">Cuadros Creativos</h3>
+                    <p class="text-sm text-zinc-500">Cuadros Spotify, Corazón y Acrílicos con iluminación LED.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-6 rounded-xl border border-zinc-100 shadow-sm hover:shadow-md transition-shadow">
+                    <span class="material-symbols-outlined text-4xl text-primary mb-4">wallet</span>
+                    <h3 class="text-xl font-black uppercase mb-2">Accesorios de Cuero</h3>
+                    <p class="text-sm text-zinc-500">Billeteras, porta tarjetas y llaveros con grabado láser.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-white p-6 rounded-xl border border-zinc-100 shadow-sm hover:shadow-md transition-shadow">
+                    <span class="material-symbols-outlined text-4xl text-primary mb-4">smartphone</span>
+                    <h3 class="text-xl font-black uppercase mb-2">DeskMates</h3>
+                    <p class="text-sm text-zinc-500">Portacelulares y personajes de escritorio funcionales.</p>
+                </div>
+            </div>
+        </section>
+    <?php endif; ?>
+
     <!-- Product Grid -->
     <section class="py-12 px-4 max-w-7xl mx-auto">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-12">
             <?php
-            if ( woocommerce_product_loop() ) {
-                while ( have_posts() ) {
+            if (woocommerce_product_loop()) {
+                while (have_posts()) {
                     the_post();
                     /**
                      * Hook: woocommerce_shop_loop.
                      */
-                    do_action( 'woocommerce_shop_loop' );
-                    
+                    do_action('woocommerce_shop_loop');
+
                     global $product;
                     ?>
                     <!-- Product Card -->
                     <div class="group flex flex-col gap-4">
                         <div
                             class="relative w-full aspect-[1/1] bg-white rounded-lg overflow-hidden border border-zinc-100 shadow-sm group-hover:shadow-md transition-shadow">
-                            <a href="<?php the_permalink(); ?>" class="absolute inset-0 bg-center bg-cover transition-transform duration-500 group-hover:scale-105"
+                            <a href="<?php the_permalink(); ?>"
+                                class="absolute inset-0 bg-center bg-cover transition-transform duration-500 group-hover:scale-105"
                                 style='background-image: url("<?php echo get_the_post_thumbnail_url($post->ID, 'large'); ?>");'>
                             </a>
-                            <?php if ($product->is_on_sale()) : ?>
-                            <span
-                                class="absolute top-4 left-4 bg-black text-white px-2 py-1 text-[10px] font-black uppercase tracking-widest z-10">Oferta</span>
+                            <?php if ($product->is_on_sale()): ?>
+                                <span
+                                    class="absolute top-4 left-4 bg-black text-white px-2 py-1 text-[10px] font-black uppercase tracking-widest z-10">Oferta</span>
                             <?php endif; ?>
-                            
+
                             <!-- Quick Actions -->
-                            <div class="quick-shop-sidebar absolute right-0 top-0 h-full w-16 bg-white/90 backdrop-blur-sm border-l border-zinc-200 flex flex-col items-center py-4 gap-4 translate-x-full group-hover:translate-x-0 transition-transform duration-300">
-                                <button class="p-2 hover:text-primary transition-colors"><span class="material-symbols-outlined">favorite</span></button>
-                                <button class="p-2 hover:text-primary transition-colors"><span class="material-symbols-outlined">visibility</span></button>
-                                <button class="p-2 hover:text-primary transition-colors"><span class="material-symbols-outlined">share</span></button>
+                            <div
+                                class="quick-shop-sidebar absolute right-0 top-0 h-full w-16 bg-white/90 backdrop-blur-sm border-l border-zinc-200 flex flex-col items-center py-4 gap-4 translate-x-full group-hover:translate-x-0 transition-transform duration-300">
+                                <button class="p-2 hover:text-primary transition-colors"><span
+                                        class="material-symbols-outlined">favorite</span></button>
+                                <button class="p-2 hover:text-primary transition-colors"><span
+                                        class="material-symbols-outlined">visibility</span></button>
+                                <button class="p-2 hover:text-primary transition-colors"><span
+                                        class="material-symbols-outlined">share</span></button>
                             </div>
                         </div>
                         <div class="space-y-1">
-                            <h3 class="text-black text-sm font-black uppercase tracking-tight group-hover:text-primary transition-colors">
+                            <h3
+                                class="text-black text-sm font-black uppercase tracking-tight group-hover:text-primary transition-colors">
                                 <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                             </h3>
                             <p class="text-zinc-500 text-xs font-bold"><?php echo $product->get_price_html(); ?></p>
@@ -94,7 +141,7 @@ get_header();
                     <?php
                 }
             } else {
-                do_action( 'woocommerce_no_products_found' );
+                do_action('woocommerce_no_products_found');
             }
             ?>
         </div>
@@ -102,24 +149,24 @@ get_header();
         <!-- Pagination -->
         <div class="mt-20 flex justify-center items-center gap-4">
             <?php
-            $total_pages = wc_get_loop_prop( 'total_pages' );
-            $current_page = max( 1, get_query_var( 'paged' ) );
-            
+            $total_pages = wc_get_loop_prop('total_pages');
+            $current_page = max(1, get_query_var('paged'));
+
             if ($total_pages > 1) {
                 // Simple previous button
                 if ($current_page > 1) {
                     echo '<a href="' . get_pagenum_link($current_page - 1) . '" class="w-10 h-10 flex items-center justify-center border border-zinc-200 rounded-lg hover:border-black transition-colors"><span class="material-symbols-outlined text-sm">chevron_left</span></a>';
                 }
-                
+
                 // Page numbers (simplified)
                 for ($i = 1; $i <= $total_pages; $i++) {
                     $active_class = $i === $current_page ? 'bg-black text-white' : 'border border-zinc-200 hover:border-black';
                     echo '<a href="' . get_pagenum_link($i) . '" class="w-10 h-10 flex items-center justify-center rounded-lg font-black text-xs ' . $active_class . '">' . $i . '</a>';
                 }
-                
+
                 // Next button
                 if ($current_page < $total_pages) {
-                     echo '<a href="' . get_pagenum_link($current_page + 1) . '" class="w-10 h-10 flex items-center justify-center border border-zinc-200 rounded-lg hover:border-black transition-colors"><span class="material-symbols-outlined text-sm">chevron_right</span></a>';
+                    echo '<a href="' . get_pagenum_link($current_page + 1) . '" class="w-10 h-10 flex items-center justify-center border border-zinc-200 rounded-lg hover:border-black transition-colors"><span class="material-symbols-outlined text-sm">chevron_right</span></a>';
                 }
             }
             ?>
