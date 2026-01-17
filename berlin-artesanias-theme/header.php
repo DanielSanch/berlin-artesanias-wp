@@ -63,7 +63,7 @@
         <div class="flex animate-none justify-center gap-10 text-xs font-bold tracking-widest uppercase">
             <span>Envío rápido a todo el mundo</span>
             <span class="hidden md:inline">•</span>
-            <span>100% Artesanía Berlinesa</span>
+            <span>100% Artesanía Llanera</span>
             <span class="hidden md:inline">•</span>
             <span>Personalización Gratuita esta semana</span>
         </div>
