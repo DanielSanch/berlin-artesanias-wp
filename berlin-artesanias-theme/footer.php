@@ -32,9 +32,9 @@
                 <li><a class="hover:text-primary"
                         href="<?php echo esc_url(get_permalink(wc_get_page_id('shop'))); ?>">Todos los
                         productos</a></li>
-                <li><a class="hover:text-primary" href="/categoria/agendas">Agendas</a></li>
-                <li><a class="hover:text-primary" href="/categoria/medallones">Medallones</a></li>
-                <li><a class="hover:text-primary" href="/gift-cards">Gift Cards</a></li>
+                <li><a class="hover:text-primary" href="/product-category/agendas">Agendas</a></li>
+                <li><a class="hover:text-primary" href="/product-category/medallones">Medallones</a></li>
+                <li><a class="hover:text-primary" href="/product-category/gift-cards">Gift Cards</a></li>
             </ul>
         </div>
 
