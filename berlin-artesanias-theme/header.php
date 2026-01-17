@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?> class="light">
 
 <!-- VERSION: 1.0.4 - LOGO FIX -->
+
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,7 +76,7 @@
     <nav class="sticky top-0 z-50 bg-black text-white shadow-xl">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16 sm:h-20">
-                <!-- Logo -->
+                <!-- Logo (Preserved) -->
                 <div class="flex items-center gap-3 group cursor-pointer"
                     onclick="window.location='https://experiencia.berlinartesanias.com/'">
                     <div
@@ -95,33 +96,30 @@
                         </span>
                     </div>
                 </div>
-                <!-- Desktop Search -->
-                <div class="hidden md:flex flex-1 max-w-md mx-8">
-                    <div class="relative w-full">
-                        <span
-                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">search</span>
-                        <input
-                            class="w-full bg-zinc-900 border-none rounded-lg py-2 pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary placeholder-gray-500"
-                            placeholder="Busca tu estilo..." type="text" />
-                    </div>
+
+                <!-- Navigation Links (Centered) -->
+                <div class="hidden lg:flex items-center gap-6 text-sm font-bold uppercase tracking-tight">
+                    <a href="/generales" class="hover:text-primary transition-colors">Generales</a>
+                    <a href="/tienda" class="hover:text-primary transition-colors">Catálogo</a>
+                    <a href="/personalizador" class="hover:text-primary transition-colors text-primary">Personalizar</a>
                 </div>
-                <!-- Navigation Links & Icons -->
-                <div class="flex items-center gap-4 sm:gap-6">
-                    <div class="hidden lg:flex items-center gap-6 text-sm font-bold uppercase tracking-tight">
-                        <a class="hover:text-primary transition-colors" href="#">Medallones</a>
-                        <a class="hover:text-primary transition-colors" href="#">Agendas</a>
-                        <a class="hover:text-primary transition-colors" href="#">Custom</a>
-                    </div>
-                    <div class="flex items-center gap-2 sm:gap-4">
-                        <button class="p-2 hover:bg-zinc-800 rounded-lg transition-colors">
-                            <span class="material-symbols-outlined text-white">person</span>
-                        </button>
-                        <button class="relative p-2 bg-primary text-black rounded-lg hover:scale-105 transition-all">
-                            <span class="material-symbols-outlined font-bold">shopping_cart</span>
-                            <span
-                                class="absolute -top-1 -right-1 bg-white text-black text-[10px] font-black w-4 h-4 flex items-center justify-center rounded-full border border-black">3</span>
-                        </button>
-                    </div>
+
+                <!-- Right Icons -->
+                <div class="flex items-center gap-2 sm:gap-4">
+                    <button class="p-2 hover:bg-zinc-800 rounded-lg transition-colors">
+                        <span class="material-symbols-outlined text-white">search</span>
+                    </button>
+                    <a href="/mi-cuenta" class="p-2 hover:bg-zinc-800 rounded-lg transition-colors">
+                        <span class="material-symbols-outlined text-white">person</span>
+                    </a>
+                    <a href="/cart"
+                        class="relative p-2 bg-primary text-black rounded-lg hover:scale-105 transition-all">
+                        <span class="material-symbols-outlined font-bold">shopping_cart</span>
+                        <span
+                            class="absolute -top-1 -right-1 bg-white text-black text-[10px] font-black w-4 h-4 flex items-center justify-center rounded-full border border-black">
+                            <?php echo WC()->cart ? WC()->cart->get_cart_contents_count() : '0'; ?>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
