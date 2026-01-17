@@ -32,9 +32,16 @@
                 <li><a class="hover:text-primary"
                         href="<?php echo esc_url(get_permalink(wc_get_page_id('shop'))); ?>">Todos los
                         productos</a></li>
-                <li><a class="hover:text-primary" href="/product-category/agendas">Agendas</a></li>
-                <li><a class="hover:text-primary" href="/product-category/medallones">Medallones</a></li>
-                <li><a class="hover:text-primary" href="/product-category/gift-cards">Gift Cards</a></li>
+                <li><a class="hover:text-primary" href="/product-category/berlin-souvenirs-y-colecciones">Berlin
+                        Souvenirs</a></li>
+                <li><a class="hover:text-primary" href="/product-category/regalos-personalizados">Personalizados</a>
+                </li>
+                <li><a class="hover:text-primary" href="/product-category/linea-para-emprendedores">Emprendedores</a>
+                </li>
+                <li><a class="hover:text-primary" href="/product-category/premiaciones-y-corporativo">Corporativo</a>
+                </li>
+                <li><a class="hover:text-primary" href="/product-category/temporadas">Temporadas</a></li>
+                <li><a class="hover:text-primary" href="/product-category/laser-studio">Laser Studio</a></li>
             </ul>
         </div>
 

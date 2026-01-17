@@ -57,37 +57,41 @@
     <section class="bg-black py-16 px-4">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <a class="group relative overflow-hidden rounded-xl bg-zinc-900 h-64 border border-zinc-800" href="#">
+                <a class="group relative overflow-hidden rounded-xl bg-zinc-900 h-64 border border-zinc-800"
+                    href="/product-category/berlin-souvenirs-y-colecciones">
                     <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-110 transition-transform duration-700"
                         style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuApcWkEv7jj2Vb_u5pZ3ljdM75CA9riiif0Dk3roK46o4q4pyE2WjuEEARdM29afuZrMLCpZE8llyIDGiOc1NJVb6bskIp9t5D9WTUFN_XeCMgNI-2jj9bGJWgMgQGKUG07Ow4bK1eC592i0JsJFNCyrI3ePrFS4kYO5aieqSqPw-gyFXp4UE37vJDa4UrJ7fadxAfi6muG9rGaIjHvQMvrs6FSENGgB29Iln0VnloRclE5cGtyHij6Ws1ocLhpKaMVZMZsmK3xTbUl");'>
                     </div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     <div class="absolute bottom-6 left-6">
-                        <h3 class="text-white text-3xl font-black uppercase italic tracking-tighter">Agendas</h3>
+                        <h3 class="text-white text-3xl font-black uppercase italic tracking-tighter">Berlin Souvenirs
+                        </h3>
                         <span
                             class="text-primary font-bold text-sm tracking-widest uppercase flex items-center gap-2">Explorar
                             <span class="material-symbols-outlined text-sm">arrow_forward</span></span>
                     </div>
                 </a>
-                <a class="group relative overflow-hidden rounded-xl bg-zinc-900 h-64 border border-zinc-800" href="#">
+                <a class="group relative overflow-hidden rounded-xl bg-zinc-900 h-64 border border-zinc-800"
+                    href="/product-category/regalos-personalizados">
                     <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-110 transition-transform duration-700"
                         style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuApPoamIoIDHveCUmZ7hUS-AEssLYAcG12Wnu3la498GO_XtILEXTwlVM73nEgQBfNaawJzCfiZkJP4Y6yN1ALiTwGfhwQ99_Kn1654YrHXeo9-OFDYo4A1OT7GSGbm8xSiLRgL7a4kB3gmfQO5xclXcEkvMdIHC49vBSqeXS62kf_z77ciVHBcAFHr5AOUycSE5e5ofos0wU_Zkt7YUqCkQRXGk7nb-6K8v-apiO3bx3iIlqvVDa9tSv4hIV_07tMADMXpXAg-r7qi");'>
                     </div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     <div class="absolute bottom-6 left-6">
-                        <h3 class="text-white text-3xl font-black uppercase italic tracking-tighter">Medallones</h3>
+                        <h3 class="text-white text-3xl font-black uppercase italic tracking-tighter">Personalizados</h3>
                         <span
                             class="text-primary font-bold text-sm tracking-widest uppercase flex items-center gap-2">Explorar
                             <span class="material-symbols-outlined text-sm">arrow_forward</span></span>
                     </div>
                 </a>
-                <a class="group relative overflow-hidden rounded-xl bg-zinc-900 h-64 border border-zinc-800" href="#">
+                <a class="group relative overflow-hidden rounded-xl bg-zinc-900 h-64 border border-zinc-800"
+                    href="/product-category/laser-studio">
                     <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-110 transition-transform duration-700"
                         style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB0LPwio0O_Zh0xGhU3teuLKEJwgtq4CWbtlU0PpzLBTaT38LcGnOptc2qTwhrPchkihmguDfVs0xDAaHSihN3tH_cn_jCmDLXj3N447R0cD24j2ZZK6QgmB_1ZNmqAjX-KO8Jd5HLYB3_E_hlsTU4W8Z5-hTaodCboG2FoNF4wUdGlRCQk_bb28uQ_e1S3q-Z6TOAcm91eHRbrXNQa9Muc9PLsx14A4_vx7dRBG4GFaC1RIM_mOUhJ8Ao53_ySL4wkJk3PGgL74iak");'>
                     </div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     <div class="absolute bottom-6 left-6">
-                        <h3 class="text-white text-3xl font-black uppercase italic tracking-tighter">Custom Work</h3>
+                        <h3 class="text-white text-3xl font-black uppercase italic tracking-tighter">Laser Studio</h3>
                         <span
                             class="text-primary font-bold text-sm tracking-widest uppercase flex items-center gap-2">Explorar
                             <span class="material-symbols-outlined text-sm">arrow_forward</span></span>

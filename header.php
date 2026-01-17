@@ -102,6 +102,8 @@
                     <a href="/generales" class="hover:text-primary transition-colors">Generales</a>
                     <a href="<?php echo esc_url(get_permalink(wc_get_page_id('shop'))); ?>"
                         class="hover:text-primary transition-colors">Catálogo</a>
+                    <a href="/product-category/laser-studio" class="hover:text-primary transition-colors">Laser
+                        Studio</a>
                     <a href="/personalizador" class="hover:text-primary transition-colors text-primary">Personalizar</a>
                 </div>
 
